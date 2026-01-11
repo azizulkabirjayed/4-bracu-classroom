@@ -35,4 +35,4 @@
 | Vanilla CSS        |         |           |
 | Vanilla JavaScript |         |           |
 
-<p align="right">(<a href="https://github.com/azizulkabirjayed/4-bracu-classroom?tab=readme-ov-file#readme-top:~:text=13%20Commits-,app1,-Add%20files%20via">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
