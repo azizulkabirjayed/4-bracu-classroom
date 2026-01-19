@@ -28,7 +28,9 @@ This project was developed as part of the CSE391(Programming for the Internet) c
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 # Database Schema Diagram
-<img src="schema_diagram.jpg" width="500" height="300"/>
+<div style="background-color:black; padding:20px; display:inline-block;">
+  <img src="schema_diagram.jpg" width="500">
+</div>
 
 
 # Built With
