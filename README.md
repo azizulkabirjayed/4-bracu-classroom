@@ -1,11 +1,8 @@
-
 <a id="readme-top"></a>
-
 # About The Project
 This project was developed as part of the CSE391(Programming for the Internet) course project at BRAC University.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 # Key Features
-
 ###  User Authentication & Roles
 - **Students** can sign up to create an account.
 - Only the **Admin** can create faculty accounts.
