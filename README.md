@@ -11,6 +11,9 @@ This project was developed as part of the CSE391(Programming for the Internet) c
 | ![JavaScript](https://img.shields.io/badge/JavaScript-Vanilla-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) |  |  |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+# Project Demo Video
+The project demo video is available to watch here: <a href="https://youtu.be/LLAFR5r8_pI?si=F0pOv5Hs8O7A30z5">click here</a>.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 # Key Features
 ###  User Authentication & Roles
