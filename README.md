@@ -1,6 +1,9 @@
-<a id="readme-top"></a>
 # About The Project
-This project was developed as part of the CSE391(Programming for the Internet) course project at BRAC University.
+**BRACU Classroom** is a web-based classroom management system inspired by Google Classroom, built with Django. It supports three user roles: **Admin**, **Faculty** and **Student**. Each role gets its own dashboard and permissions.
+- **Students** can sign up, request to join classrooms, and view announcements, resources and the university notice board.
+- **Faculty** can create classrooms, approve or reject join requests, take attendance, and post announcements and learning resources.
+- The **Admin** manages faculty accounts and the university's central notice board.
+This project was developed as part of the CSE391 (Programming for the Internet) course project at BRAC University.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 # Built With
@@ -11,36 +14,68 @@ This project was developed as part of the CSE391(Programming for the Internet) c
 | ![JavaScript](https://img.shields.io/badge/JavaScript-Vanilla-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) |  |  |
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-# Project Demo Video
-The project demo video is available to watch here: <a href="https://youtu.be/LLAFR5r8_pI?si=F0pOv5Hs8O7A30z5">click here</a>.
+# How To Run
+### Prerequisites
+- [Python 3.10+](https://www.python.org/downloads/)
+- [Git](https://git-scm.com/downloads)
+
+### Steps
+**1. Clone the repository**
+```bash
+git clone https://github.com/<your-username>/4-bracu-classroom.git
+cd 4-bracu-classroom
+```
+
+**2. Create and activate a virtual environment** (recommended)
+```bash
+python -m venv venv
+# Windows
+venv\Scripts\activate
+# macOS / Linux
+source venv/bin/activate
+```
+
+**3. Install Django**
+```bash
+pip install django
+```
+
+**4. Apply database migrations**
+```bash
+python manage.py migrate
+```
+
+**5. Create the Admin account**
+
+There is only one Admin, and it is created manually. First create a superuser:
+```bash
+python manage.py createsuperuser
+```
+Then give that account the `admin` role (replace `admin` with the username you chose):
+```bash
+python manage.py shell -c "from app1.models import All_Users; All_Users.objects.filter(username='admin').update(role='admin')"
+```
+
+**6. Run the development server**
+```bash
+python manage.py runserver
+```
+
+**7. Open the app**
+
+Go to **http://127.0.0.1:8000/** in your browser.
+- Log in as the **Admin** to create faculty accounts and post notices.
+- Use **Sign Up** to create a **Student** account.
+- Log in with a **Faculty** account (created by the Admin) to create classrooms.
+
+> **Note:** The repository includes a `db.sqlite3` file with sample data. If you'd rather start with an empty database, delete `db.sqlite3` before step 4.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-# Key Features
-###  User Authentication & Roles
-- **Students** can sign up to create an account.
-- Only the **Admin** can create faculty accounts.
-- There is only **one Admin**, created manually.
-
-###  Student Features
-- Request to join courses (classrooms).
-- View announcements and shared resources from enrolled classrooms.
-- See posts on the university notice board.
-
-###  Faculty Features
-- Approve or reject student requests to join classrooms.
-- Create and manage classrooms.
-- Take and manage attendance.
-- Post announcements and share learning resources.
-- View the university notice board.
-
-###  Admin Features
-- Manage the university's central notice board.
-- Create and manage faculty accounts.
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 # Database Schema Diagram
 <img src="schema_diagram.jpg">
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
 
