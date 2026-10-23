@@ -57,7 +57,6 @@ Make sure you have [Python 3.10+](https://www.python.org/downloads/) and [Git](h
 ![Visualization 2](https://raw.githubusercontent.com/azizulkabirjayed/azizulkabirjayed/b187c3f1c782f2757083c5a33da18b26d4bfd4f1/4/2.gif)
 ![Visualization 3](https://raw.githubusercontent.com/azizulkabirjayed/azizulkabirjayed/b187c3f1c782f2757083c5a33da18b26d4bfd4f1/4/3.gif)
 ![Visualization 4](https://raw.githubusercontent.com/azizulkabirjayed/azizulkabirjayed/b187c3f1c782f2757083c5a33da18b26d4bfd4f1/4/4.gif)
-![Visualization 5](https://raw.githubusercontent.com/azizulkabirjayed/azizulkabirjayed/b187c3f1c782f2757083c5a33da18b26d4bfd4f1/4/5.gif)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
