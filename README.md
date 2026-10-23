@@ -15,7 +15,7 @@ Make sure you have [Python 3.10+](https://www.python.org/downloads/) and [Git](h
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/<your-username>/4-bracu-classroom.git
+   git clone https://github.com/azizulkabirjayed/4-bracu-classroom.git
    cd 4-bracu-classroom
    ```
 
